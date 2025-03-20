@@ -1,0 +1,13 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "main": "index.js",
+"scripts": {
+  "start": "tsx src/index.ts",
+  "dev": "tsx watch src/index.ts"
+},
+  "dependencies": {
+    "axios": "^0.21.1",
+    "tsx": "^3.8.0"
+  }
+}
